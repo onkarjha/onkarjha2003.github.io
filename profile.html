@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Onkar Jha | Home</title>
+      <meta charset="UTF-8">
+      <meta name="description" content="Free Web tutorials">
+      <meta name="keywords" content="HTML, CSS, JavaScript">
+      <meta name="author" content="John Doe">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap" rel="stylesheet">
+   </head>
+   <style type="text/css">
+      *{
+      margin:0;
+      padding: 0;
+      box-sizing: border-box;
+      }:root{
+      --f:'Mulish', sans-serif;
+      --grad:linear-gradient(to bottom right, #4caf50, #673ab7);
+      --clip: polygon(50% 100%, 100% 90%, 100% 0, 0 0, 0% 90%);
+      --shadow:rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+      --c:#eaeaea;
+      --g:#74d800;
+      }body{color:white;
+      font-family: var(--f);font-weight: bold;background: #f3f3f3;
+      }nav{width:100%;
+      height: 70px;background: #00000021;
+      position: sticky;
+      top:0;
+      }.nav{
+      max-width: 1280px;
+      width:100%;
+      height: 70px;
+      display: flex;margin:auto;
+      align-items: center;
+      justify-content: space-between;
+      }ul li{
+      font-weight: lighter;
+      list-style: none;
+      display: inline-block;
+      margin-left: 7px;
+      margin-right:7px;
+      }a{
+      text-decoration: none;
+      color:white;
+      }ul{
+      margin-right: 20px;
+      }.body{
+      display: flex;justify-content: space-between;
+      align-items: center;max-width: 1280px;
+      margin:auto;
+      }ul li a{
+      text-transform: uppercase;
+      }.logo{
+      margin-left: 20px;
+      }
+      .left,.right{
+      flex: 1;padding: 20px;
+      }.svg1{
+      width:500px;
+      }p{
+      font-weight: lighter;margin-top:10px;
+      }.left{
+      display: flex;flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      }
+      button{padding: 10px 15px;
+      border-radius: 2px;font-weight: bold;color: white;
+      border:none;color:#00b0ff;
+      transition: 0.6s ease;
+      outline: none;margin-left: 10px;border:2px solid #00b0ff;background: transparent;
+      font-family: var(--f);text-transform: uppercase;
+      }.btn{
+      margin-top:20px;
+      }.btn1:hover,.btn2:hover{
+      background: #00b0ff;
+      color:white;
+      }.l1,.l2,.l3,.l4,.l5{background: #00b0ff;
+      width:5px;
+      height: 60px;
+      border-radius: 50px;
+      animation: q;
+      animation: q 1s linear infinite;
+      }.l2{animation-delay: .2s;
+      }.l3{animation-delay: .4s;
+      }.l4{animation-delay:.6s;
+      }.l5{animation-delay: .8s;
+      }.ani div{
+      margin-left: 5px;
+      margin-right: 5px;
+      }.foot{
+      width:100%;
+      padding: 20px;
+      display: flex;
+      background: black;max-width: 1280px;
+      margin: auto;
+      }.bot1,.bot2,.bot3{
+      flex:1;
+      }.bot1 h3,.bot2 h3,.bot3 h3{
+      text-transform: uppercase;
+      font-weight: lighter;
+      }.bot1 p{
+      color:#d0d0d0;
+      }.bot2 p{
+      color:#d0d0d0;
+      }.bot3 p{
+      color:#d0d0d0;
+      }.bot1,.bot2,.bot3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }.footer{
+      width:100%;background: black;
+      }.ico{
+      width:30px;
+      height: 30px;margin-right: 10px;
+      }.add_c{
+      display: flex;align-items: center;margin-top:10px;
+      }
+      .add{
+      background: #ffffff33;
+      padding: 5px;
+      border-radius: 2px;font-weight: lighter;
+      }.my_skills{
+      width:800px;
+      margin:auto;margin-top:20px;margin-bottom:50px;
+      }.my_skill_head{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      }h2{
+      color:#484848fc;
+      text-transform: uppercase;
+      }.my_skill_body{
+      display: flex;width:100%;
+      justify-content: space-between;
+      }.v1{
+      min-width: 250px;width:250px;
+      background: white;
+      padding: 5px;border-radius: 5px;padding: 10px;
+      }.video{
+      width: 100%;
+      }.v_text{
+      color:black;
+      }.port{justify-content: center;
+      align-items: center;
+      width:800px;margin: auto;
+      display: flex;margin-top:40px;margin-bottom: 10px;
+      }.port_image{
+      width:400px;
+      }.port_text{
+      padding: 10px;
+      color:#545454;
+      }.skill_bot{
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }.span{
+      font-weight: lighter;
+      color: black;
+      text-transform: uppercase;
+      }.ski{transition: 0.6s ease;
+      width:100px;height: 100px;border-radius: 50px;
+      }.div1{
+      display: flex;
+      align-items: center;justify-content: center;
+      flex-direction: column;
+      }.ski:hover{
+      opacity: .5;
+      }
+      @keyframes q{
+      50%{
+      height: 2px;
+      }
+      }.ani{margin-top:40px;width:220px;
+      height: 70px;display: flex;align-items: center;
+      justify-content: center;
+      }.active{
+      color:#00b0ff;
+      font-weight: bold
+      }.clip{
+      clip-path: var(--clip);
+      background-image: var(--grad);
+      }  @media only screen and (max-width: 600px){
+      .body{
+      flex-direction: column-reverse;
+      }.svg1{
+      width:95%;margin: 0;
+      }ul li{
+      display: none;
+      }.clip{
+      clip-path:  polygon(50% 100%, 100% 97%, 100% 0, 0 0, 0% 97%);
+      }.bot2,.bot3{
+      flex-direction: column;margin-top:30px;
+      }.foot{
+      flex-direction: column;
+      }h2{
+      margin-left: 10px;
+      }.my_skill_body{
+      flex-direction: column;justify-content: center;align-items: center;
+      }.my_skills{
+      width: 100%;
+      }.v1{
+      width:95%;
+      margin-top: 10px;
+      }.port{
+      flex-direction: column;width:100%;
+      }.port_image{
+      width:95%;
+      }.port_l{
+      display: flex;align-items: center;justify-content: center;
+      }.div1{
+      margin-top:10px;
+      }
+      }
+   </style>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <body>
+      <div class="clip">
+         <nav>
+            <div class="nav">
+               <img class="logo" src="logo.png">
+               <ul>
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">Videos</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact Us</a></li>
+               </ul>
+            </div>
+         </nav>
+         <div class="body">
+            <div class="left">
+               <h1>As cheap as a cup of tea</h1>
+               <p>Hire us we will make your web projects at the lowest cost. Now you no need to pay high amount for a website. I will make a static website in just 10$. Then what are you waiting for ?</p>
+               <div class="btn">
+                  <a href="https://www.instagram.com/onkarjha2003" target="_blank">  <button class="btn1">Hire Us</button></a>
+                  <a href="https://www.youtube.com/c/techwithonkar1" target="_blank"><button class="btn2">View more</button></a>
+               </div>
+               <div class="ani">
+                  <div class="l1"></div>
+                  <div class="l2"></div>
+                  <div class="l3"></div>
+                  <div class="l4"></div>
+                  <div class="l5"></div>
+               </div>
+            </div>
+            <div class="right">
+               <img src="coding.svg" class="svg1">
+            </div>
+         </div>
+      </div>
+      <div class="port">
+         <div class="port_l">
+            <img class="port_image" src="profile.svg">
+         </div>
+         <div class="port_r">
+            <p class="port_text">
+               Onkar Jha is a 18 year old boy. He is not a professional developer but he can make amazing professional websites. He knows html, css, php, jQuery, python and other progrogramming languages. You can hire Onkar Jha for web projects at the lowest price. He can make websites with backend programming languages too.
+            </p>
+         </div>
+      </div>
+      <div class="my_skills">
+         <div class="my_skill_head">
+            <h2>my videos</h2>
+         </div>
+         <div class="my_skill_body">
+            <div class="v1">
+               <div>
+                  <iframe class="img_main" width="100%"  class="i" src="https://www.youtube.com/embed/Pbtn4KWhjB4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <div class="v_text">
+                  <p>Amazing login signup form using pure html & css.</p>
+               </div>
+            </div>
+            <div class="v1">
+               <div>
+                  <iframe class="img_main" width="100%" height="100%" class="i" src="https://www.youtube.com/embed/vf69xyD1L4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <div class="v_text">
+                  <p>How to make your own captcha system using jq & php.</p>
+               </div>
+            </div>
+            <div class="v1">
+               <div>
+                  <iframe class="img_main" width="100%" height="100%" class="i" src="https://www.youtube.com/embed/QfTKPZjOkkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+               <div class="v_text">
+                  <p>How to clone instagram from pure html & css.</p>
+               </div>
+            </div>
+         </div>
+         <div class="skill_bot">
+            <a href="https://www.youtube.com/c/techwithonkar1" target="_blank"><button class="btn1">View All</button></a>
+         </div>
+      </div>
+      <div class="my_skills">
+         <div class="my_skill_head">
+            <h2>my skills</h2>
+         </div>
+         <div class="my_skill_body">
+            <div class="div1">
+               <img class="ski" src='html.png'>
+               <span class="span">html</span>
+            </div>
+            <div class="div1">
+               <img class="ski" src='css.png'>
+               <span class="span">css</span>
+            </div>
+            <div class="div1">
+               <img class="ski" src='js.png'>
+               <span class="span">javascript</span>
+            </div>
+            <div class="div1">
+               <img class="ski" src='php.png'>
+               <span class="span">php</span>
+            </div>
+            <div class="div1">
+               <img class="ski" src='py.png'>
+               <span class="span">python</span>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <div class="foot">
+            <div class="bot1">
+               <h3>Address</h3>
+               <p>Harshabardhan Road, A-Zone</p>
+               <p>Durgapur - 713204, West Bengal, India</p>
+            </div>
+            <div class="bot2">
+               <h3>Services</h3>
+               <p>Frontend website</p>
+               <p>Backend website</p>
+               <p>Frontend + Backend website</p>
+               <p>School & college projects</p>
+               <p></p>
+            </div>
+            <div class="bot3">
+               <h3>Contact Us</h3>
+               <p>Leave me a message on instagram.</p>
+               <div class="add_c">
+                  <img src="i.svg" class="ico">
+                  <a href="https://www.instagram.com/onkarjha2003" target="_blank">
+                     <div class="add">onkarjha2003</div>
+                  </a>
+               </div>
+               <div class="add_c">
+                  <img src="t.svg" class="ico">
+                  <a href="https://www.twitter.com/onkarjha2003" target="_blank">
+                     <div class="add">onkarjha2003</div>
+                  </a>
+               </div>
+               <div class="add_c">
+                  <img src="f.svg" class="ico">
+                  <a href="https://www.facebook.com/onkarjha2003" target="_blank">
+                     <div class="add">onkarjha2003</div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
